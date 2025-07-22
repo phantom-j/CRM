@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=CRM ERP System
+Comment=Launch the CRM ERP Flutter application
+Exec=sh run.sh
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Office;
