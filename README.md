@@ -20,6 +20,11 @@ README.md                This documentation
 2. Navigate to `crm_app/` and run `flutter pub get` to fetch dependencies.
 3. Launch the app with `flutter run`.
 
+### Linux Desktop
+1. Ensure Flutter desktop support is enabled.
+2. Use `crm_app/linux/run.sh` to run the app on Linux.
+3. Optionally copy `crm_app/linux/CRM.desktop` to `~/.local/share/applications` to integrate with your desktop environment.
+
 ### AWS Backend
 1. Create an RDS instance (e.g., MySQL or PostgreSQL) and note the credentials.
 2. Deploy the Lambda function in `backend/lambda_function.py` using AWS Lambda (Python 3.9 runtime).
